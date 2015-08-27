@@ -1,0 +1,415 @@
+[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    {
+      "title": "Multiple Themes Support",
+      "permalink": "http://kapalhq.com/multiple-themes-support.html",
+      "link": "http://kapalhq.com/multiple-themes-support.html",
+      "date": "2015-08-18T00:00:00+10:00",
+      
+        "modified": "2015-08-27T23:10:25+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "From version 0.0.31, you can now use multiple themes in Almace Scaffolding. See Themes for more information.\n",
+      "excerpt": "From version 0.0.31, you can now use multiple themes in Almace Scaffolding. See Themes for more information.\n\n",
+      "languages": null,
+      "categories": ["news"],
+      "tags": []
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Welcome",
+      "permalink": "http://kapalhq.com/welcome.html",
+      "link": "http://kapalhq.com/welcome.html",
+      "date": "2014-06-13T00:00:00+10:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "AMSF, a.k.a. Almace Scaffolding, is a super-fast Jekyll framework, supports live reloading (Browsersync), Less, HTML minification, inlined stylesheets and more.\n\n\n  Getting Started &#x27A1;&#xfe0e;\n\n\nGo to the GitHub page for downloads, bug reports, and feature requests.\n\nFeatures\n\n\n  Theme switching, you can switch themes with just one command\n  A basic, fully configured Jekyll setup with well-defined Atom feed and sitemap\n  Almace Scaffolding ships a sleek responsive theme Curtana, a variant of sparanoid.com, looking great on any mordern browsers\n  Every minified page generates only one HTTP request 1\n  Tons of configurable settings for your posts and site customization\n  Built with Grunt.js for easy development\n  Travis support\n\n\n\n  \n    \n      Based on the theme you’re using, theme Curtana generates only one HTTP request for production build when your posts don’t have fancy sliders or other external media files. &#8617;\n    \n  \n\n",
+      "excerpt": "AMSF, a.k.a. Almace Scaffolding, is a super-fast Jekyll framework, supports live reloading (Browsersync), Less, HTML minification, inlined stylesheets and more.\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["getting-started"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Getting Started",
+      "permalink": "http://kapalhq.com/getting-started.html",
+      "link": "http://kapalhq.com/getting-started.html",
+      "date": "2014-06-12T00:00:00+10:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "Requirements\n\nAlmace Scaffolding has exactly the same requirements as Jekyll. For more info please refer to Installation - Jekyll.\n\nQuick Start\n\n\n  Fork or clone the repo.\n  Install dependencies with Ruby gem bundler and Node.js package manager npm.\n  Run grunt serve.\n\n\nSo in short for geeks:\n\n$ git clone git@github.com:sparanoid/almace-scaffolding.git\n$ bundle install &amp;&amp; npm install\n$ grunt serve\n\n\n\nDownload\n\nGo to the GitHub repository for downloads, bug reports, and feature requests.\n\nTransfer from Jekyll\n\nYou can simply copy all posts from your old Jekyll setup into _app/_posts, you can also transfer your custom pages into _app/_pages/.\n\nUpgrading\n\nUpgrading templates is hard, it will be easy if you are’re a casual blogger and keep every core and template file untouched. You can use the following command to update Almace Scaffolding core files:\n\n$ grunt amsf-update\n\n\n\nIt checks the latest Almace Scaffolding build from GitHub and update core files automatically. Please keep in mind that if you changed some of the AMSF core files this action will override the changes you made. So it’s recommended to keep your project under version control, you will be always be able to compare changes for Almace Scaffolding.\n",
+      "excerpt": "Requirements\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["getting-started"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Customizing Styles",
+      "permalink": "http://kapalhq.com/customizing-styles.html",
+      "link": "http://kapalhq.com/customizing-styles.html",
+      "date": "2014-06-11T00:00:00+10:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "You can customize the basic look and feel without touching the theme files by changing custom.js and custom.less:\n\n├── _app/\n|   ├── assets/\n|   |   └── _js/\n|   |   |   └── custom.js\n|   |   └── _less/\n|   |   |   └── custom.less\n|   |   └── themes/\n|   |   |   └── ...\n\n\n\nThese files won’t be overwritten when you update Almace Scaffolding or update your themes.\n",
+      "excerpt": "You can customize the basic look and feel without touching the theme files by changing custom.js and custom.less:\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["customization"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Configuration",
+      "permalink": "http://kapalhq.com/configuration.html",
+      "link": "http://kapalhq.com/configuration.html",
+      "date": "2014-06-11T00:00:00+10:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "Configuration SettingsPermalink\n\n\n  All AMSF built-in settings can be configured at _config.yml.\n  Theme specific variables can be found at ./_app/_data/theme-name.yml.\n  Additional variables are stored in ./_app/_data/ directory. They can be accessed by Jekyll. (More info)\n  You should also change favicon.ico and apple-touch-icon.png to yours.\n  Some tasks in Gruntfile.coffee are not used in this project, they’re copied from my own website, I’ll keep them untouched in case you need these.\n  More customization please refer to theme specific documentation\n\n\nTips\n\n\n  Not familer with Markdown? Try Markdown Cheatsheet.\n  You can use Jekyll’s built-in syntax highlighting, I’ve included a default theme for this project.\n  Tables and footnotes are also avaiables to use.\n\n",
+      "excerpt": "Configuration SettingsPermalink\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["getting-started"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Themes",
+      "permalink": "http://kapalhq.com/themes.html",
+      "link": "http://kapalhq.com/themes.html",
+      "date": "2014-06-10T00:00:00+10:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "Overview\n\nIn the latest build, I’ve added multiple themes support, finally, you can switch themes with just one command.\n\nThis is an experimental feature and may change until the feature stabilizes.\n\nInstalling Themes\n\nThe AMSF framework ships a default theme Curtana. You can also install as many themes as you like and switch to the one you prefer in any time.\n\nVia Git (GitHub)\n\nThe easiest way to install new theme is via theme-add, the following command will install theme Curtana from its official repo amsf/amsf-curtana:\n\n$ grunt theme-add --theme=curtana\n\n\n\nIf you’d install custom theme from other users, append --user in your command, the following command will install a new theme named bootstrap-sass from sparanoid/amsf-bootstrap-sass\n\n$ grunt theme-add --theme=bootstrap-sass --user=sparanoid\n\n\n\nManually Install\n\nYou can also install themes manually. find an AMSF theme (Curtana, for example), download the package and uncompress all files to _amsf/themes directory, the file structure should look like:\n\n├── _amsf/ (Almace Scaffolding cache directory)\n|   ├── themes/\n|   |   └── curtana/\n|   |   |   └── assets/\n|   |   |   └── includes/\n|   |   |   └── layouts/\n|   |   |   └── pages/\n|   |   |   └── config.yml\n└── _app/\n\n\n\nThen execute the following command:\n\n$ grunt activate --theme=curtana\n\n\n\nYou current theme will be backed up to _amsf/themes/your-old-theme/ and the new theme curtana will be installed to the appropriate directories.\n\nUpgrading Themes\n\nYou can update your current activated theme by the following command. The activated theme will be downloaded from GitHub automatically if there’s any update:\n\n$ grunt theme-update\n\n\n\nPlease note that only themes added via GitHub can be updated.\n",
+      "excerpt": "Overview\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["customization"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Creating Your Own Theme",
+      "permalink": "http://kapalhq.com/creating-themes.html",
+      "link": "http://kapalhq.com/creating-themes.html",
+      "date": "2014-06-09T00:00:00+10:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "Overview\n\nYou can create your own theme in AMSF, theme files are located in the following location (I use default theme Curtana here for better understanding):\n\n├── _app/\n|   ├── _data/\n|   |   └── curtana.yml\n|   ├── _includes/\n|   |   └── themes/\n|   |   |   └── curtana/\n|   |   |   |   └── includes/\n|   |   |   |   └── layouts/\n|   ├── _pages/\n|   |   └── themes/\n|   |   |   └── curtana/\n|   |   |   |   └── example-page.md\n|   |   |   |   └── ...\n|   ├── assets/\n|   |   └── themes/\n|   |   |   └── curtana/\n|   |   |   |   └── _js/\n|   |   |   |   └── _less/\n|   |   |   |   └── ...\n\n\n\nThe theme specific config curtana.yml should have the same filename as your theme name. It should contain theme specific variables and can also override AMSF built-in settings.\n\nMore info about theme structure you can check out my default theme Curtana.\n\nYou can also have multiple themes in your project, as many as you like. For example if you also have themes Bootstrap and Ghost installed, the file structure should be:\n\n├── _app/\n|   ├── _data/\n|   |   └── bootstrap.yml\n|   |   └── curtana.yml\n|   |   └── ghost.yml\n|   ├── _includes/\n|   |   └── themes/\n|   |   |   └── bootstrap/\n|   |   |   |   └── includes/\n|   |   |   |   └── layouts/\n|   |   |   └── curtana/\n|   |   |   |   └── includes/\n|   |   |   |   └── layouts/\n|   |   |   └── ghost/\n|   |   |   |   └── includes/\n|   |   |   |   └── layouts/\n|   ├── _pages/\n|   |   └── themes/\n|   |   |   └── bootstrap/\n|   |   |   |   └── example-about.md\n|   |   |   |   └── example-blog.md\n|   |   |   |   └── example-fluid-container.md\n|   |   |   |   └── ...\n|   |   |   └── curtana/\n|   |   |   |   └── example-about.md\n|   |   |   |   └── example-news.md\n|   |   |   |   └── ...\n|   |   |   └── ghost/\n|   |   |   |   └── example-archive.md\n|   |   |   |   └── example-page.md\n|   |   |   |   └── example-tagcloud.md\n|   |   |   |   └── ...\n|   ├── assets/\n|   |   └── themes/\n|   |   |   └── bootstrap/\n|   |   |   |   └── _coffee/\n|   |   |   |   └── _less/\n|   |   |   |   └── images/\n|   |   |   └── curtana/\n|   |   |   |   └── _js/\n|   |   |   |   └── _less/\n|   |   |   |   └── svg/\n|   |   |   └── ghost/\n|   |   |   |   └── _js/\n|   |   |   |   └── _scss/\n|   |   |   |   └── fonts/\n...\n\n\n\nAMSF Options\n\nThere’re several built-in options you can use in your theme. These options can also be overridden in theme specific config.\n\nsite.name\n\nTemplate:\n\n&lt;footer class=\"footer\"&gt;\n  &lt;ul&gt;\n    &lt;li&gt;&lt;a href=\"/\"&gt;{{ site.name }}&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"/atom.xml\"&gt;Atom&lt;/a&gt;&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/footer&gt;\n\n\n\nOutput:\n\n&lt;footer class=\"footer\"&gt;\n  &lt;ul&gt;\n    &lt;li&gt;&lt;a href=\"/\"&gt;Almace Scaffolding&lt;/a&gt;&lt;/li&gt;\n    &lt;li&gt;&lt;a href=\"/atom.xml\"&gt;Atom&lt;/a&gt;&lt;/li&gt;\n  &lt;/ul&gt;\n&lt;/footer&gt;\n\n\n\nsite.description\n\nSite description, will appear in the document meta and Atom feed subtitle.\n\nTemplate:\n\n&lt;meta property=\"og:description\" content=\"{{ site.description }}\"&gt;\n\n\n\nOutput:\n\n&lt;meta property=\"og:description\" content=\"Super-fast Jekyll framework\"&gt;\n\n\n\nsite.base\n\nBase URL, this is useful when you need to build site in a subdirectory (like GitHub Pages for Projects), it provides a specific URL prefix, for example, if the production site URL is http://sparanoid.com/lab/amsf/, set base to /lab/amsf, without trailing slash. This make sure all the links are relative to current site root (in a subdirectory in this case), you should use this variable for every link appeared in your theme.\n\nConfig:\n\nbase: /lab/amsf\n\n\n\nTemplate:\n\n&lt;a href=\"{{ site.base }}/atom.xml\"&gt;Atom&lt;/a&gt;\n\n\n\nOutput:\n\n&lt;a href=\"/lab/amsf/atom.xml\"&gt;Atom&lt;/a&gt;\n\n\n\nsite.file\n\nMedia assets URL used in posts, without trailing slash. In the most cases this URL should be powered by a CDN provider.\n\nConfig:\n\nfile: //d349cztnlupsuf.cloudfront.net\n\n\n\nTemplate:\n\n&lt;img src=\"{{ site.file }}/post-thumbnail.jpg\"&gt;\n\n\n\nOutput:\n\n&lt;img src=\"//d349cztnlupsuf.cloudfront.net/post-thumbnail.jpg\"&gt;\n\n\n\nsite.twitter\n\nSite Twitter account handle.\n\nTemplate:\n\n&lt;a href=\"http://twitter.com/{{ site.twitter }}\"&gt;Follow @{{ site.twitter }} on Twitter&lt;/a&gt;\n\n\n\nOutput:\n\n&lt;a href=\"http://twitter.com/sparanoid\"&gt;Follow @sparanoid on Twitter&lt;/a&gt;\n\n\n\nsite.force_utf_8\n\nForce UTF-8 encoding, enable this will simply add &lt;meta charset=\"utf-8\"&gt; to the head of your pages.\n\nTemplate:\n\n{% if site.force_utf_8 %}\n  &lt;meta charset=\"utf-8\"&gt;\n{% endif %}\n\n\n\nTheme Features\n\nThere’re some features can be integrated into your theme.\n\n(Basic) Multi-Language Support\n\nYou can define post / page language in your front-matter field:\n\nlanguages:\n  - zh-tw\n\n\n\nAn additional lang HTML attribute will be added to your final rendering:\n\n&lt;article lang=\"zh-tw\"&gt;\n  ...\n&lt;/article&gt;\n\n\n\nIf your post / page content is multilingual, you can also define multiple languages in array:\n\nlanguages:\n  - zh-tw\n  - en-us\n\n\n\nPlease note that only the first item defined in languages array will be used in final lang ouput, the additional languages will be available in JSON feed output:\n\n{\n  \"languages\": [\"zh-tw\", \"en-us\"],\n  \"categories\": [\"note\"],\n  \"tags\": [\"miscellaneous\"]\n}\n\n\n\nSmooshing Assets\n\nFor better performance, Almace Scaffolding will find all the CSS, script links and images in compiled HTML, and outputs a version with all the CSS, scripts and images (Base64) written inline. Sounds cool? but it needs theme support. Here’s how:\n\nYou can simply add the query string ?assets-inline at the end of the file you’d like to be smooshed in production site:\n\n&lt;!-- This CSS will be smooshed into HTML --&gt;\n&lt;link rel=\"stylesheet\" href=\"{{ '/css/app.css?assets-inline' | prepend: amsf_theme_assets }}\"&gt;\n\n&lt;!-- This script will be smooshed into HTML --&gt;\n&lt;script src=\"{{ '/js/app.js?assets-inline' | prepend: amsf_theme_assets }}\"&gt;&lt;/script&gt;\n\n\n\nUser Custom Styles Support\n\nDefine the following code snippet into your theme styles (Less) will allow users to custom your theme without touching the theme files:\n\n// Import user custom styles\n@import \"../../../_less/custom\";\n\n\n\nUser Custom Scripts Support\n\nDefine the following code snippet into your theme template (it’s recommended to put it in footer) will allow users to add custom scripts without touching the theme files:\n\n&lt;!-- User custom scripts --&gt;\n&lt;script src=\"{{ '/js/custom.js?assets-inline' | prepend: amsf_user_assets }}\"&gt;&lt;/script&gt;\n\n\n\nPage / Post Specific CSS Block Support\n\nThis allow your user to define page / post specific CSS blocks in front-matter data:\n\n&lt;!-- Page-wide custom CSS --&gt;\n{{ amsf_page_css }}\n\n\n\nGoogle Analytics Support\n\nThis allow your user to be able to use Google Analytics for their site, tracking ID can be changed in config file:\n\n&lt;!-- Google Analytics tracking code --&gt;\n{{ amsf_google_analytics }}\n\n\n\nPublishing Themes\n\nYou really like your custom design and wanna show it off to the world? Cool, you can create (pack) you own theme by the following command:\n\n$ grunt theme-save\n\n\n\nThe activated theme will be saved to AMSF cache (_amsf/) with correct file and directory structure, then you can upload your theme to GitHub.\n\nStill confusing? see my default theme Curtana for reference.\n",
+      "excerpt": "Overview\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["customization"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Markdown Features Test",
+      "permalink": "http://kapalhq.com/markdown-features-test.html",
+      "link": "http://kapalhq.com/markdown-features-test.html",
+      "date": "2014-06-06T00:00:00+10:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "Indented Code Blocks\n\ndef show\n  @widget = Widget(params[:id])\n  respond_to do |format|\n    format.html # show.html.erb\n    format.json { render json: @widget }\n  end\nend\n\n\n\nGFM Code Blocks (fenced_code_blocks)\n\ndef show\n  @widget = Widget(params[:id])\n  respond_to do |format|\n    format.html # show.html.erb\n    format.json { render json: @widget }\n  end\nend\n\n\n\n/* Background color function */\n.code-bg (@v) when (lightness(@v) &gt;= 50%) {\n  @return-bg: mix(#000, lighten(@v, 30%), 10%);\n}\n.code-bg (@v) when (lightness(@v) &lt; 50%) {\n  @return-bg: mix(#fff, darken(@v, 10%), 70%);\n}\n\n\n\nSmartyPants\n\n“Aha! What’s up, man?” – Jony said.\n\nTables\n\n\n  \n    \n      Name\n      Upvotes\n      Downvotes\n      Abstentions\n    \n  \n  \n    \n      Alice\n      10\n      11\n      2\n    \n    \n      Bob\n      4\n      3\n      1\n    \n    \n      Charlie\n      7\n      9\n      4\n    \n    \n      Totals\n      21\n      23\n      7\n    \n  \n\n\nIntra-emphasis\n\nfoo_bar_baz\n\nAuto-link\n\nhttp://sparanoid.com/\n\nStrikethroughs\n\nThis is ~~good~~ bad.\n\nSpace after Headers\n\n###This is not a header.\n\nSuperscripts\n\nThis is the 2^(nd) time.\n\nFootnotes\n\nThis1 is2 a sentence3.\n\nID 日本語タイトル\n\nExpected id should be id-ri-ben-yu-taitoru.\n\nID 中文標題\n\nExpected id should be id-zhong-wen-biao-ti.\n\n\n  \n    \n      Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. Social bookmarking group buying crowded market pivot onboarding freemium prototype ping pong. Early stage disruptive ecosystem community outreach dynamic location based strategic investor. &#8617;\n    \n    \n      An Important Announcement by Richard Ziade at Readability &#8617;\n    \n    \n      Good afterble constanoon, this sweet hongi is as bung as a stuffed morepork. Mean while, in the marae, Dr Ropata and Hairy Maclary from Donaldson’s Dairy were up to no good with a bunch of bloody troties. &#8617;\n    \n  \n\n",
+      "excerpt": "Indented Code Blocks\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["miscellaneous"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Markup Example",
+      "permalink": "http://kapalhq.com/markup-example.html",
+      "link": "http://kapalhq.com/markup-example.html",
+      "date": "2014-06-05T00:00:00+10:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. Social bookmarking group buying crowded market pivot onboarding freemium prototype ping pong. Early stage disruptive ecosystem community outreach dynamic location based strategic investor.\n\n\n  Two days ago the Chinese website Taobao held a discount promotion to celebrate what’s known as “double sticks day” in China. In a single 24hr period, they conducted 19bn RMB (US$3.06bn) of business.\n  \n    Chris West\n  \n\n\n\n  Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.\n\n\nGood afterble constanoon, this sweet hongi is as bung as a stuffed morepork. Mean while, in the marae, Dr Ropata and Hairy Maclary from Donaldson’s Dairy were up to no good with a bunch of bloody troties.\n\nInline HTML elements\n\nHTML defines a long list of available inline tags, a complete list of which can be found on the Mozilla Developer Network.\n\n\n  To bold text, use &lt;strong&gt;.\n  To italicize text, use &lt;em&gt;.\n  Abbreviations, like HTML should use &lt;abbr&gt;, with an optional title attribute for the full phrase.\n  Citations, like — Tunghsiao Liu &amp; Mark otto, should use &lt;cite&gt;.\n  Deleted text should use &lt;del&gt; and inserted text should use &lt;ins&gt;.\n  Superscript text uses &lt;sup&gt; and subscript text uses &lt;sub&gt;.\n\n\nMost of these elements are styled by browsers with few modifications on our part.\n\nMaui and his rough as guts piece of pounamu, what a stink buzz. Bro, quater-acre patches are really naff good with bung mates, aye. You have no idea how beached as our random kais were aye. Every time I see those beautiful lengths of number 8 wire it’s like Castle Hill all over again aye, do you happen to have a bucket or a hose bro?\n\nH2 Headings\n\nYou have no idea how pretty suss our same same but different toasted sandwiches were aye. Every time I see those carked it keas it’s like the dairy all over again aye, you don’t know his story, bro. Anyway, Hairy Maclary from Donaldson’s Dairy is just Mrs Falani in disguise, to find the true meaning of life, one must start frying up with the hangi, mate. After the rugby ball is jumped the ditch, you add all the stink girl guide biscuits to the trotie you’ve got yourself a meal.\n\nH3 Headings\n\nYou have no idea how pretty suss our same same but different toasted sandwiches were aye. Every time I see those carked it keas it’s like the dairy all over again aye, you don’t know his story, bro. Anyway, Hairy Maclary from Donaldson’s Dairy is just Mrs Falani in disguise, to find the true meaning of life, one must start frying up with the hangi, mate. After the rugby ball is jumped the ditch, you add all the stink girl guide biscuits to the trotie you’ve got yourself a meal.\n\nH4 Headings\n\nYou have no idea how pretty suss our same same but different toasted sandwiches were aye. Every time I see those carked it keas it’s like the dairy all over again aye, you don’t know his story, bro. Anyway, Hairy Maclary from Donaldson’s Dairy is just Mrs Falani in disguise, to find the true meaning of life, one must start frying up with the hangi, mate. After the rugby ball is jumped the ditch, you add all the stink girl guide biscuits to the trotie you’ve got yourself a meal.\n\nH5 Headings\n\nYou have no idea how pretty suss our same same but different toasted sandwiches were aye. Every time I see those carked it keas it’s like the dairy all over again aye, you don’t know his story, bro. Anyway, Hairy Maclary from Donaldson’s Dairy is just Mrs Falani in disguise, to find the true meaning of life, one must start frying up with the hangi, mate. After the rugby ball is jumped the ditch, you add all the stink girl guide biscuits to the trotie you’ve got yourself a meal.\n\nH6 Headings\n\nYou have no idea how pretty suss our same same but different toasted sandwiches were aye. Every time I see those carked it keas it’s like the dairy all over again aye, you don’t know his story, bro. Anyway, Hairy Maclary from Donaldson’s Dairy is just Mrs Falani in disguise, to find the true meaning of life, one must start frying up with the hangi, mate. After the rugby ball is jumped the ditch, you add all the stink girl guide biscuits to the trotie you’ve got yourself a meal.\n\nHe was alone then; when he sat in that same chair his wife now sits in, and I shared with him the positive result to his HIV test. Though he seemed disinterested, vaguely detached, he had obviously heard of HIV before. His chart from the local clinic indicated a previous history of and treatment for anal gonorrhea, two acute cases of syphilis in the past three years, and a urinary tract infection last month. His only listed sexual contact, his wife. Who, strangely enough, only tested positive for one of the syphilis infections.\n\n“Mistake, this! I am married, not a giver of ass.”\n\nGiver of ass? That’s one for the archive, I think.\n\nUnwilling to engage his obvious denials, I ignore the comment and instead explain that due to a higher than acceptable potential of a false positive result, we won’t consider his oral test as confirmatory until the more accurate blood analysis is in.\n\n“I no understand”, he says to the room in general.\n\nHis annoyance is obvious. Abrasively, he offers me his exposed forearm. This, I assume, is my cue to draw his blood. Ignoring the indignant anger beginning to rise, I tighten my jaw, then swab the fat vein with betadine, working the cool, brown liquid off in concentric circles, using strong medicinal smelling alcohol. I use the betadine, as most of these men work in the mines, and dirt three layers thick on exposed skin is the norm. As the first tube in the vacationer fills with blood, he asks,\n\n“So how I get this thing?”\n\nAh, I see we are going to play the circuitous dance of ignorance. Sounding just a little too clinical, I begin the HIV 101 mantra.\n\n“Well, people acquire HIV through certain types of sex with an infected person, through sharing needles with an infected person, and sometimes through a blood transfusion. Have you ever had a blood transfusion, sir?”\n\nI take the dismissive wave of his hand as a no to the transfusion question. I don’t make a great attempt to navigate a comfort zone here; instinct and experience telling me he has already set the script of what is to follow.\n\n“She is fucking other cocks my whore devil wife”?\nBingo! A narrative that over the next six weeks I will hear from several other men as well.\n\n“These whores, all they want is the cock!”\nCareful Skippy, you really aren’t as convincing as you think you are.\n\n\n  \n    “She is fucking other cocks my whore devil wife”?\n    \n    Bingo! A narrative that over the next six weeks I will hear from several other men as well.\n  \n\n  \n    “These whores, all they want is the cock!”\n    \n    Careful Skippy, you really aren’t as convincing as you think you are.\n  \n\n  \n    from A World Away by alto\n  \n\n\nChinese Paragraph\n\n「名词成灾」的流行病里，灾情最严重的该是所谓「科学至上」（scientism）。在现代的工业社会里，科学早成显贵，科技更是骄子，所以知识分子的口头与笔下，有意无意，总爱用一些「学术化」的抽象名词，好显得客观而精确。有人称之为「伪术语」（pseudo-jargon）。例如：明明是 first step，却要说成 initial phase：明明是 letter，却要说成 communication，都属此类。\n\nJapanese Paragraph\n\n『雪国』の主な舞台は、上越国境の清水トンネルを抜けた湯沢温泉であるが、この作品も『伊豆の踊子』同様に、川端康成の旅の出会いから生まれたもので、雪中の火事も実際に起ったことだと川端は語っている。川端は作品内で故意に地名を隠しているが、1934 年（昭和 9 年）6 月 13 日より 1937 年まで新潟県湯沢町の高半旅館（現：高半ホテル）に逗留していたことを随筆『「雪国」の旅』で述べている。\n\n## H2 Heading\n### H3 Heading\n#### H4 Heading\n##### H5 Heading\n###### H6 Heading\n\n\n\nCode Blocks\nCode highlighting demo, powered by Pygments. More info about code highlighting can be found at Jekyll’s documentation.\n\ndef show\n  @widget = Widget(params[:id])\n  respond_to do |format|\n    format.html # show.html.erb\n    format.json { render json: @widget }\n  end\nend\n\n\n\nTables\n\n\n  \n    \n      Name\n      Upvotes\n      Downvotes\n      Abstentions\n    \n  \n  \n    \n      Alice\n      10\n      11\n      2\n    \n    \n      Bob\n      4\n      3\n      1\n    \n    \n      Charlie\n      7\n      9\n      4\n    \n    \n      Totals\n      21\n      23\n      7\n    \n  \n\n",
+      "excerpt": "Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. Social bookmarking group buying crowded market pivot onboarding freemium prototype ping pong. Early stage disruptive ecosystem community outreach dynamic location based strategic investor.\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["miscellaneous"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Custom HTML Markups",
+      "permalink": "http://kapalhq.com/custom-html-markups.html",
+      "link": "http://kapalhq.com/custom-html-markups.html",
+      "date": "2014-06-01T00:00:00+10:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": ".note, .store, and .download\n\nA paragraph block with a thin border line.\n\nUsage\n\n&lt;p class=\"download\"&gt;\n  &lt;a href=\"https://github.com/sparanoid/sparanoid.com/\"&gt;Download&lt;/a&gt; it from GitHub\n&lt;/p&gt;\n\n&lt;p class=\"store\"&gt;\n  Love this plugin? please consider &lt;a href=\"{{ site.profile.donate }}\"&gt;buying me a cup of coffee.&lt;/a&gt;\n&lt;/p&gt;\n\n\n\nPlease note that you can’t apply CSS classes in Markdown, so you have to use HTML markup.\n\nExample\n\n\n  Download it from GitHub\n\n\n\n  Love this plugin? please consider buying me a cup of coffee.\n\n\n.largetype\n\nMake normal paragraph text large enough.\n\nUsage\n\n&lt;p class=\"largetype\"&gt;\n  &lt;a href=\"{{ site.profile.donate }}\"&gt;PayPal&lt;/a&gt;\n&lt;/p&gt;\n\n\n\nPlease note that you can’t apply CSS classes in Markdown, so you have to use HTML markup.\n\nExample\n\n\n  PayPal\n\n\n.browser\n\nA simple browser frame using pure CSS.\n\nUsage\n\n&lt;p class=\"browser\"&gt;\n  &lt;img src=\"http://sparanoid.com/photo.jpg\" alt=\"Image\"&gt;\n&lt;/p&gt;\n\n\n\nPlease note that you can’t apply CSS classes in Markdown, so you have to use HTML markup.\n\nExample\n\n\n\nintense.js\n\nA simple library by Tim Holman to view large images up close using simple mouse interaction, and the full screen.\n\nUsage\n\nAdd the folloing setting to your post front-matter field:\n\nplugin: intense\n\n\n\nMarkdown markup:\n\n![Image](http://sparanoid.com/photo.jpg)\n\n\n\nOr simply use HTML:\n\n&lt;p&gt;\n  &lt;img src=\"http://sparanoid.com/photo.jpg\" alt=\"Image\"&gt;\n&lt;/p&gt;\n\n\n\nintense.js is activated globally by default, if you want to disable this effect for specific image, you can simply apply .no-intense CSS class to your &lt;img&gt;:\n\n&lt;p&gt;\n  &lt;img src=\"http://sparanoid.com/photo.jpg\" class=\"no-intense\" alt=\"Image\"&gt;\n&lt;/p&gt;\n\n\n\nPlease note that if you’re using HTML markup, you should wrap your images into a &lt;p&gt; container.\n\nExample\n\n\n",
+      "excerpt": ".note, .store, and .download\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["curtana"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Custom Color Scheme",
+      "permalink": "http://kapalhq.com/custom-color-scheme.html",
+      "link": "http://kapalhq.com/custom-color-scheme.html",
+      "date": "2014-05-01T00:00:00+10:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "This is an example how to change your post color scheme for specific posts. You can simply add the folloing variables to your post front-matter field:\n\nscheme-text: \"#0029ff\"\nscheme-link: \"#ff00b4\"\nscheme-hover: \"#ff00b4\"\nscheme-code: \"#ad00ff\"\nscheme-bg: \"#00ebff\"\n\n\n\nYou can also ignore other variables if you only want to change the background:\n\nscheme-bg: \"#00ebff\"\n\n\n",
+      "excerpt": "This is an example how to change your post color scheme for specific posts. You can simply add the folloing variables to your post front-matter field:\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["curtana"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Unique Post Styling via Custom CSS",
+      "permalink": "http://kapalhq.com/custom-css.html",
+      "link": "http://kapalhq.com/custom-css.html",
+      "date": "2014-04-01T00:00:00+11:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "This is an example how to change your post styling via CSS. You can simply add the css option to your post front-matter field:\n\nscheme-text: \"#000\"\nscheme-link: \"#a73300\"\nscheme-hover: \"#ff4e00\"\nscheme-code: \"#a73300\"\ncss: |\n  body {\n    background-image: linear-gradient(to bottom, #fff500, #ff8f00);\n  }\n\n\n",
+      "excerpt": "This is an example how to change your post styling via CSS. You can simply add the css option to your post front-matter field:\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["curtana"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "SVG Post Ttile",
+      "permalink": "http://kapalhq.com/svg-post-title.html",
+      "link": "http://kapalhq.com/svg-post-title.html",
+      "date": "2014-02-01T00:00:00+11:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "This is an example of custom post title using SVG image. You can simply add the folloing setting to your post front-matter field:\n\nsvg-headline: svg/kai.svg\nsvg-headline-width: 400\nsvg-headline-height: 86\n\n\n\nImage defined for svg-headline should be stored at _app/_includes/svg/, you can simply keep these title images under Git control, they will be smooshed into the HTML pages using Grunt.js in production environment. The svg-headline-width and svg-headline-height can be omitted if you have correct dimensions for your images.\n\nThere’s also an option for common raster images, but please note that these files should be stored at where you define site.file.\n\nimg-headline: imouto-logo-large.png\nimg-headline-width: 500\n\n\n\nPro Tips: Keep a &lt;title&gt; tag for your SVG can help Safari generate correct post title for its Reader mode:\n\n&lt;svg xmlns=\"http://www.w3.org/2000/svg\" width=\"2175\" height=\"465\" viewBox=\"0 0 2175 465\"&gt;\n&lt;title&gt;Kai Series&lt;/title&gt;\n…\n\n\n",
+      "excerpt": "This is an example of custom post title using SVG image. You can simply add the folloing setting to your post front-matter field:\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["curtana"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "External Link Post",
+      "permalink": "http://kapalhq.com/external-link-post.html",
+      "link": "http://kapalhq.com/external-link-post.html",
+      "date": "2014-02-01T00:00:00+11:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "This is an example of Tumblr-like external link post. You can simply add the folloing setting to your post front-matter field:\n\nlink: http://sparanoid.com/\n\n\n",
+      "excerpt": "This is an example of Tumblr-like external link post. You can simply add the folloing setting to your post front-matter field:\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["curtana"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "GitHub Pages Setup Guide",
+      "permalink": "http://kapalhq.com/github-pages-setup.html",
+      "link": "http://kapalhq.com/github-pages-setup.html",
+      "date": "2014-01-01T00:00:00+11:00",
+      
+        "modified": "2015-08-27T23:32:02+10:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "http://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "The Problem\n\nUnfortunately this project doesn’t work with GitHub Pages or GitHub Pages for projects. There’re some factors that prevent it from generating pages:\n\n\n  Many features Almace Scaffolding provides like live reloading, Less support, inline SVG, and HTML minification are implemented using Grunt.js, it’s not supported by GitHub Pages.\n  Almace Scaffolding uses the latest pre-release Jekyll, so not all features are supported by GitHub Pages renderers.\n  GItHub Pages build server overwrites the source settings. This prevent it generating pages from current file structure.\n\n\nThe Solution\n\nI know this can be tricky and more verbose than uploading your Jekyll site directly to your repository. However GitHub Pages support static HTML pages, a workaround solution for using Almace Scaffolding on GitHub Pages is treating your Jekyll site as static pages:\n\n\n  Build your site locally (grunt build).\n  Upload Jekyll generateed static files to your username.github.io repository.\n\n\nIf you’d like to keep all things under Git control, you can try the following file structure:\n\n├── _amsf/ (Almace Scaffolding source code)\n├── *.html (Jekyll-generated static pages)\n└── README.md (your own readme)\n\n\n\nYou can see this live demo how to make them friends.\n",
+      "excerpt": "The Problem\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["deployment"]
+    }
+    
+  
+
+
+]
